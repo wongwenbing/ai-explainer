@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest manifest-version="0.1" xmlns="http://www.tableau.com/xml/extension_manifest">
+  <dashboard-extension id="com.example.gemini.explainer" extension-version="1.0.0">
+    <default-locale>en_US</default-locale>
+    <name>Gemini AI Explainer</name>
+    <description>Ask questions about your Tableau data using Gemini AI</description>
+    <author name="Your Name" email="you@example.com" organization="Your Org"/>
+    <source-location>
+      <url path="index.html"/>
+    </source-location>
+    <permissions>
+      <permission>full data</permission>
+      <permission>interactive</permission>
+    </permissions>
+  </dashboard-extension>
+</manifest>
